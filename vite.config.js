@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    open: '/home'
+    open: '/'
   },
-  base: process.env.VITE_BASE_PATH || "/home"
+  base: process.env.VITE_BASE_PATH || "/"
 })

@@ -13,14 +13,14 @@ import Trigger from './pages/criterias/Trigger.jsx'
 import ColorChar from './pages/criterias/ColorChar.jsx'
 
 const router = createBrowserRouter([
-  {path: '/home', element: <App />},
-  {path: '/home/WOWFATB', element: <WowFatB />},
-  {path: '/home/Introduction', element: <Intro />},
-  {path: '/home/Flashback Introduction', element: <FlashbackIntro />},
-  //{path: '/home/Super Suspense', element: <SuperSus />},
-  {path: '/home/Dilemma Technique', element: <DilemmaTech />},
-  {path: '/home/Trigger + Decision', element: <Trigger />},
-  {path: '/home/Colourful Characterisation', element: <ColorChar />},
+  {path: '/', element: <App />},
+  {path: '/WOWFATB', element: <WowFatB />},
+  {path: '/Introduction', element: <Intro />},
+  {path: '/Flashback Introduction', element: <FlashbackIntro />},
+  //{path: '/Super Suspense', element: <SuperSus />},
+  {path: '/Dilemma Technique', element: <DilemmaTech />},
+  {path: '/Trigger + Decision', element: <Trigger />},
+  {path: '/Colourful Characterisation', element: <ColorChar />},
   {path: '*', element: <NotFoundPage />}
 ])
 

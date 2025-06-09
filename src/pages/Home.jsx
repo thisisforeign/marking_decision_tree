@@ -26,7 +26,7 @@ const Home = () => {
         <ul>
           {categories.map((category, index) => (
               <li key={index}>
-                <Link to={`/home/${category}`} state={{ studentName: inputName}}><h2>{category}</h2></Link>
+                <Link to={`/${category}`} state={{ studentName: inputName}}><h2>{category}</h2></Link>
               </li>
           ))}
         </ul>
