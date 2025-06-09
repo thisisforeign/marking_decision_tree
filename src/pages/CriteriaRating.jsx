@@ -146,7 +146,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
       ) : (
         criteriaName === "WOWFATB" ? (
           <>
-          <button onClick={() => goBackSamePage()}>Back</button>
+          <button onClick={() => goBackSamePage()}>Back</button><br />
           {chosenRating === 1 ? (
             <>Excellent use of WOWFATB(s) for <input
                 className="userTypes1"
@@ -189,7 +189,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
           </>
         ) : criteriaName === "Intro" ? (
           <>
-          <button onClick={() => goBackSamePage()}>Back</button>
+          <button onClick={() => goBackSamePage()}>Back</button><br />
             {chosenRating === 1 ? (
               <>Excellent work here, {studentName}! You crafted an engaging introduction using the EESWH technique.</>
             ) : chosenRating === 2 ? (
@@ -211,7 +211,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
             </>
         ) : criteriaName === "FlashBackIntro" ? (
         <>
-        <button onClick={() => goBackSamePage()}>Back</button>
+        <button onClick={() => goBackSamePage()}>Back</button><br />
         {chosenRating === 1 ? (
           <>Excellent Flashback Introduction, {studentName}</>
         ) : chosenRating === 2 ? (
@@ -240,7 +240,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
         </>
         ) : criteriaName === "SuperSus" ? (
           <>
-          <button onClick={() => goBackSamePage()}>Back</button>
+          <button onClick={() => goBackSamePage()}>Back</button><br />
           {chosenRating === 1 ? (
             <>Excellent application of the Super Suspense format, ${studentName}!</>
           ) : chosenRating === 2 ? (
@@ -263,7 +263,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
           </>
         ) : criteriaName === "ColorChar" ? (
           <>
-          <button onClick={() => goBackSamePage()}>Back</button>
+          <button onClick={() => goBackSamePage()}>Back</button><br />
           {chosenRating === 1 ? (
             <>Excellent use of Colourful Characterisation here {studentName}!</>
           ) : chosenRating === 2 ? (
@@ -291,7 +291,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
           </>
         ) : criteriaName === "Trigger" ? (
           <>
-          <button onClick={() => goBackSamePage()}>Back</button>
+          <button onClick={() => goBackSamePage()}>Back</button><br />
           {chosenRating === 1 ? (
             <>Excellent job remembering to follow up the dilemma with a trigger + decision!</>
           ) : chosenRating === 2 ? (
@@ -315,7 +315,7 @@ const CriteriaRating = ({criteriaName, studentName}) => {
           </>
         ) : criteriaName === "DilemmaTech" ? (
           <>
-          <button onClick={() => goBackSamePage()}>Back</button>
+          <button onClick={() => goBackSamePage()}>Back</button><br />
           {chosenRating === 1 ? (
             <>Perfect application of the Dilemma Technique, {studentName}!</>
           ) : chosenRating === 2 ? (
