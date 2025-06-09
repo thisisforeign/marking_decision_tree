@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     open: '/home'
-  }
+  },
+  base: process.env.VITE_BASE_PATH || "/marking_decision_tree#"
 })
