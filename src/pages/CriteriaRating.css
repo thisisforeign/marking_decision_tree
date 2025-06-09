@@ -1,0 +1,35 @@
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.userTypes1 {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    font-size: inherit;
+}
+
+.userTypes2{
+    background-color: #5a37e6;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    font-size: inherit;
+}
+
+button {
+    border-radius: 30%;
+    border-color: rgb(126, 0, 253);
+    padding: 10px;
+    background-color: #3100ff;
+    color: wheat;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #5a37e6;
+    color: rgb(246, 210, 143);
+}
