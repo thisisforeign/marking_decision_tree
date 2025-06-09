@@ -1,4 +1,4 @@
-import './FlashBackIntro.css'
+import './FlashbackIntro.css'
 import CriteriaRating from '../CriteriaRating';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
